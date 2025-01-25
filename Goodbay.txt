@@ -1,2 +1,2 @@
-print("Goodbay world")
-print("Goodbay")
+print("Goodbay world;")
+print("Goodbay;")
