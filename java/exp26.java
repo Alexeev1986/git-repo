@@ -25,15 +25,13 @@ public class exp26 {
         int tr = 1;
         do {
             do{
-                System.out.printf(" $ " + n);
+                System.out.printf(" $ ");
                 count2++;
             } while ((count2 - 1) < n);
-            if(n < 2 ){
-            n = n + 1;
-            }
-            if(n > 2){
+            if(count1 < 2 ){
+                n = n + 1;
+            }else if(count1 >= 2){
                 n = n - 1;
-                tr = 0;
             }
             System.out.printf("%n");
             count1++;
