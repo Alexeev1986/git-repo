@@ -1,3 +1,5 @@
+import java.nio.charset.Charset;
+
 public class expDoWhile {
     public static void main(String[] args) {
         // пример do-while
@@ -13,5 +15,6 @@ public class expDoWhile {
             System.out.println(count2);
             count2++;
         }
+        System.out.println(Charset.defaultCharset().displayName());
     }
 }
