@@ -10,9 +10,7 @@ public class exp27 {
             }
         }
         for (int i = 97; i <= 122; i++) {                                   //указываем диапазон букв с 97 до 122
-            boolean isLetter = Character.isLetter((char) i);
-            boolean isLetterUp = Character.isUpperCase((char) i);
-            if(i % 2 == 0 & isLetter == true & isLetterUp == false){        //проверка условий: четный ли код символа, является буквой, 
+            if(i % 2 == 0 & Character.isLetter((char) i) == true){        //проверка условий: четный ли код символа, является буквой, 
                 System.out.printf("%7d",i);                                 //является большой или маленькой.
                 System.out.printf("%19s",(char) i);
                 System.out.printf("%-20s%n","\t" + "\t" + Character.getName(i));
